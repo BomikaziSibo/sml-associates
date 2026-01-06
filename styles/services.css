@@ -27,6 +27,7 @@
 }
 .services-con{
     padding-top: 3rem;
+    padding-bottom: 3rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     gap: 1rem;
@@ -98,4 +99,5 @@
     .service{
         width: 11rem;
     }
+
 }
