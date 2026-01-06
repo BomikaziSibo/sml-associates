@@ -1,0 +1,162 @@
+.leaders-sec{
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.leaders-inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.leaders-header{
+    width: 100%;
+    padding-bottom: 4rem;
+}
+.leaders-header h2{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(26, 82, 165);
+}
+.leaders-header hr{
+    width: 30%;
+    border: solid 2px  rgb( 26, 62, 165);
+    margin: 0 auto;
+}
+
+.leaders-header p{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+.leaders-con{
+    width: 100%;
+    display: flex;
+}
+.leader-con{
+    width: 40%;
+    background: linear-gradient(to right,rgb(4, 4, 88), rgb(3, 3, 122), rgb(86, 150, 244));
+    padding-top: 4px;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 8px 8px 5px rgb(43, 43, 43, 0.3);
+    margin: 0 auto;
+}
+.leader-inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 241, 248);
+    padding-top: 10px;
+    padding-bottom: 1rem;
+}
+
+
+
+.leader-desc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.leader-name{
+    width: 100%;
+    text-align: center;
+}
+.leader-title{
+    width: 100%;
+    text-align: center;
+    color: rgb( 26, 62, 165);
+    font-weight: bold;
+}
+.leader-exp{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.business-operations{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.business-hours-con{
+    width: 40%;
+    background-color: rgb(213, 225, 236);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+.business-hours-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.business-hours-header h3{
+    color: rgb(26, 62, 165);
+}
+.business-hours-icon{
+    width: 2rem;
+    height: 2rem;
+}
+.business-hours-content{
+    width: 100%;
+}
+.business-hours-content ul{
+    padding: 2rem;
+}
+.business-hours-content li{
+    text-align: center;
+    padding-bottom: 10px;
+}
+@media (max-width: 800px) {
+    .leader-con{
+        width: 60%;
+    }
+}
+@media (max-width: 750px) {
+    .business-operations {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .business-hours-con{
+        width: 60%;
+        margin:  0 auto;
+    }
+    .business-hours-header h3{
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .business-hours-con{
+        width: 80%;
+    }
+    
+}
+@media (max-width: 443px) {
+    .leader-con{
+        width: 85%;
+    }
+    .business-operations{
+        width: 95%;
+    }
+    .business-hours-con{
+        width: 90%;
+    }
+    .business-hours-content li{
+        padding-bottom: 15px;
+    }
+    .leaders-header p{
+        width: 95%;
+    }
+}

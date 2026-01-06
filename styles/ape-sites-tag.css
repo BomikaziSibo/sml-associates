@@ -1,0 +1,42 @@
+
+.ape-sites-tag{
+    padding-top: 1rem; 
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( rgb(27, 151, 185, 0.1));
+
+}
+.tag-inner{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.tag-inner span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 6px;
+    color: rgb(32, 188, 249);
+}
+.tag-inner a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+.ape-sites-icon{
+    width: 2rem;
+    height: 2rem;
+}
+@media (max-width: 428px) {
+    .ape-sites-text{
+        font-size: 10px;
+    }
+    .ape-sites-text span{
+        font-size: 14px;
+    }
+}

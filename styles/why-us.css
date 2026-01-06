@@ -1,0 +1,48 @@
+.why-us-sec{
+    width: 100%;
+    padding-top: 3rem;
+}
+.why-us-inner{
+    width: 90%;
+    margin: 0 auto ;
+    padding-bottom: 3rem;
+}
+.why-us-header{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    padding-bottom: 2rem;
+}
+.why-us-header h2{
+    color: rgb(26, 82, 165);
+}
+.why-us-header p{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.why-us-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2rem;
+}
+.content-con{
+    width: 15rem;
+    background-color: rgb(27, 151, 185, 0.3);
+    padding: 1rem;
+    margin: 0 auto;
+
+}
+.content-header{
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.content-header-icon{
+    width: 2rem;
+    height: 2rem;
+
+}
