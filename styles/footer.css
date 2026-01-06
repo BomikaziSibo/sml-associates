@@ -50,6 +50,9 @@
 .contact-info-con{
     width: 45%;
 }
+.address{
+    width: 78%;
+}
 
 
 @media (max-width: 500px) {
@@ -70,4 +73,5 @@
     .contact-info-con{
         width: 100%;
     }
+
 }
