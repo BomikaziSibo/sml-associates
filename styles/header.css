@@ -117,7 +117,7 @@ body{
 .nav-menu {
   position: absolute;
   width: 30vw;
-  height: 32vh;
+  height: 34vh;
   transition: 0.3s ease-in-out;
   transform: translateX(100%);
   top: 4rem;
@@ -195,4 +195,5 @@ body{
         justify-content: flex-start;
     }
 }
+
 
