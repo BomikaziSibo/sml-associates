@@ -43,6 +43,13 @@
     color: white;
     text-decoration: none;
 }
+.quick-link-address{
+    position: relative;
+}
+.quick-link-address .quick-link-icon{
+    position: absolute;
+    top: 7px;
+}
 .quick-link-icon{
     width: 10px;
 }
@@ -75,3 +82,4 @@
     }
 
 }
+
